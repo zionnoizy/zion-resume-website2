@@ -7,28 +7,29 @@
         <br>
 
 
+        <!--https://stackoverflow.com/questions/39094612/css-to-display-divs-in-row-and-cols-->
         <div class="row px-10 " style="">
             <div class="col-sm-2 col-md-3 col-lg-4 ">
-                <!-- [!] IMG ON VUE VERSION-->
-                <img class="d-flex flex-column" src="/images/profile/2019_w_profile.jpg" style="width:180px;height:200px;  "> </br>
+                <!--/resume-website/-->
+                <img src="@/assets/images/profile/2019_w_profile.jpg" style="width:180px;height:200px;  ">
                 2019
             </div>
             <div class="col-sm-2 col-md-3 col-lg-4 one_profile">
-                <img src="src/images/profile/2020_w_profile.jpg" style="width:180px;height:200px"> </br>
+                <img src="@/assets/images/profile/2020_w_profile.jpg" style="width:180px;height:200px">
                 2020
             </div>
             <div class="col-sm-2 col-md-3 col-lg-4 one_profile">
-                <img src="src/images/profile/2021_w_profile.jpg" style="width:180px;height:200px"> </br>
+                <img src="@/assets/images/profile/2021_w_profile.jpg" style="width:180px;height:200px">
                 2021
             </div>
             
             <div class=" col-sm-2 col-md-3 col-lg-4 one_profile">
-                <img src="src/images/profile/2022_w_profile.jpg" style="width:180px;height:200px"> </br>
+                <img src="@/assets/images/profile/2022_w_profile.jpg" style="width:180px;height:200px">
                 2022
             </div>
 
             <div class="col one_profile">
-                <img src="src/images/profile/comming_soon.png" style="width:180px;height:200px"> </br>
+                <img src="@/assets/images/profile/comming_soon.png" style="width:180px;height:200px">
                 2023
             </div>
         
@@ -36,35 +37,47 @@
             <br>
         </div>
 
-        <!--2-->
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
         <h1 class="px-10">Linkedin Background</h1>
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-1  px-2">
 
+
+
             <div class="">
-                <img class="lin_bg" src="/images/profile/linkedin_bg/linkedin_1.jfif" style="width:684px;height:126px;"> </br>
+                <img class="lin_bg" src="@/assets/images/profile/linkedin_bg/linkedin_1.jpg" style="width:684px;height:126px;">
                 <label>Casquinez Bridge (taken 2019)</label>
             </div>
     
             <div class="">
-                <img class="lin_bg" src="/images/profile/linkedin_bg/linkedin_2.jpg" style="width:684px;height:126px;"> </br>
+                <img class="lin_bg" src="@/assets/images/profile/linkedin_bg/linkedin_2.jpg" style="width:684px;height:126px;">
                 <label>Euston Curch (taken 2020)</label>
             </div>
     
             <div class="">
-                <img class="lin_bg" src="/images/profile/linkedin_bg/linkedin_3.jpg" style="width:684px;height:146px;"> </br>
+                <img class="lin_bg" src="@/assets/images/profile/linkedin_bg/linkedin_3.jpg" style="width:684px;height:146px;">
                 <label>Milton Keynes Rose (taken 2021)</label>
     
             </div>
 
             <div class="">
-                <img class="lin_bg" src="/images/profile/linkedin_bg/tmp-background-image.jpg" style="width:684px;height:146px;"> </br>
-                <label>Coming-Soon (will be taken 2022)</label>
+                <img class="lin_bg" src="@/assets/images/profile/linkedin_bg/linkedin_4.jpeg" style="width:684px;height:146px;"> 
+                <label>London Bridge (taken 2022)</label>
     
             </div>
         
             <br>
         
-        </div>   
+        </div>     
     </class>
     
     <ZionFooter></ZionFooter>
