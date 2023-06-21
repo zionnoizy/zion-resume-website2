@@ -11,16 +11,22 @@
     <div>
       
         <!--https://webdesign.tutsplus.com/tutorials/how-to-build-a-shifting-underline-hover-effect-with-css-and-javascript--cms-28510-->
-        <nav class="mynav nav_links ">
+        <nav class="mx-auto flex items-stretch">
+            
+          <router-link :to="{name: 'Project' }" class="router-link" active-class="router-link-active"> 
+                <p class="text-3xl font-bold"> Project 
+                </p> 
+            </router-link>
 
-              <a href="" style="font-size:24pt;"> Project </a>
-              <a href="" style="font-size:24pt;"> News </a>
-              <a href="" class="mx-auto flex items-stretch mx-auto text-white" style="font-size:24pt;"> Profile </a>
-              
-           
-              
-            
-            
+            <router-link :to="{name: 'Profile' }" class="router-link" active-class="router-link-active"> 
+                <p class="text-3xl font-bold"> Profile 
+                </p> 
+            </router-link>
+
+            <router-link :to="{name: 'News' }" class="router-link" active-class="router-link-active"> 
+                <p class="text-3xl font-bold"> News 
+                </p> 
+            </router-link>
         </nav>
 
         
