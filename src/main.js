@@ -2,13 +2,15 @@
 import { createApp } from 'vue';
 import App from './App.vue';
 import Vue from 'vue'
+import router from "@/plugins/router";
 
-const app = createApp(App);
+const app = createApp(App)
+app.use(router);
+app.mount('#app');
 
 // now you can see `vueApp` within the browser console
-window.vueApp = app;
+//window.vueApp = app;
 
-app.mount('#app');
 
 
 Vue.loadScript("https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js")

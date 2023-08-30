@@ -7,5 +7,5 @@ module.exports = defineConfig({
       .use('babel-loader')
       .loader('babel-loader')
       .end();
-  }
+  },
 })
