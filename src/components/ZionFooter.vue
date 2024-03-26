@@ -3,20 +3,20 @@
 
 <div class="app-container">
     <div class="about-me">
-      <h1>Contact</h1>
-      <div class="container" id="contact">
-        <button data-openmessagebox-target="#mb">
-          <p style="color:white;"> Send an E-mail to Me </p>
-        </button>
-        <!-- ... Rest of your "About Me" content ... -->
-      </div>
-    </div>
-    <div class="footer">
-      <footer>
+
+      <div class="cb">
+        <br>
+        <br>
+        <br>
         <hr>
-        <p> 2023 Copyright. All Rights Reserved</p>
-      </footer>
+        <h1>Connect Me in Social Network</h1>
+        <a href="https://www.linkedin.com/in/zion-wong24/"> LINKEDIN </a>
+        <a href="https://www.youtube.com/channel/UCK1EVyeYdV-c_DTNviA5_cA"> YOUTUBE </a>
+        <a href="https://github.com/zionnoizy"> GITHUB </a>
+      </div>
+
     </div>
+    
   </div>
 </template>
   
@@ -37,6 +37,10 @@
 .footer {
   flex: 1;
   text-align: right;
+}
+
+.cb{
+    clear:both;
 }
 </style>
   

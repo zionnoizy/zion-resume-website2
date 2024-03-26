@@ -12,28 +12,18 @@
     </div>
 
     <div>
-      
-        <!--https://webdesign.tutsplus.com/tutorials/how-to-build-a-shifting-underline-hover-effect-with-css-and-javascript--cms-28510-->
-        <nav class="mx-auto flex items-stretch">
-          <router-link :to="{name: '' }" class="router-link" active-class="router-link-active"> 
-                <p class="text-3xl font-bold"> Home 
-                </p> 
-            </router-link>
-
-          <router-link :to="{name: 'ProjectScreen' }" class="router-link" active-class="router-link-active"> 
-                <p class="text-3xl font-bold"> Project 
-                </p> 
-            </router-link>
-
-            <router-link :to="{name: 'Profile' }" class="router-link" active-class="router-link-active"> 
-                <p class="text-3xl font-bold"> Profile 
-                </p> 
-            </router-link>
-
-            <router-link :to="{name: 'News' }" class="router-link" active-class="router-link-active"> 
-                <p class="text-3xl font-bold"> News 
-                </p> 
-            </router-link>
+      <!--https://webdesign.tutsplus.com/tutorials/how-to-build-a-shifting-underline-hover-effect-with-css-and-javascript--cms-28510-->
+        <nav class="zion_nav ">
+            <ul>
+              <li><a><router-link to="/">Home</router-link></a></li>
+              <li><a><router-link to="/profile">Profile</router-link></a></li>
+              <!-- <li>
+                <router-link :to="{name: 'News' }" class="router-link" active-class="router-link-active"> 
+                    <p class="text-3xl font-bold"> News 
+                    </p> 
+                </router-link>
+              </li> -->
+            </ul>
         </nav>
 
         
@@ -53,4 +43,25 @@
   
   </template>
   
-  
+<style>
+.zion_nav ul{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0;
+}
+
+.zion_nav li:not(:last-child) {
+  margin-right: 20px;
+}
+
+.zion_nav a {
+  display: block;
+  font-size: 30px;
+  color: F8F8F8;
+  text-decoration: none;
+  padding: 7px 15px;
+}
+
+</style>

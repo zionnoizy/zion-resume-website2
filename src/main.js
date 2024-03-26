@@ -8,11 +8,9 @@ const app = createApp(App)
 app.use(router);
 app.mount('#app');
 
+
 // now you can see `vueApp` within the browser console
 //window.vueApp = app;
-
-
-
 Vue.loadScript("https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js")
 Vue.loadScript("https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js")
 Vue.loadScript("https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js")
